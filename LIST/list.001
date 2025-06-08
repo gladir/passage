@@ -15,6 +15,27 @@ title: Asteroids
 https://raw.githubusercontent.com/gladir/7iles/main/ASTEROID.PAS
 make: fpc ASTEROID.PAS
 
+[axtro]
+title: Axtro : Liste de commandes sur l'astronomie écrit en Pascal
+https://raw.githubusercontent.com/gladir/AXTRO/main/COSMIC.PAS
+https://raw.githubusercontent.com/gladir/AXTRO/main/DISTANCE.PAS
+https://raw.githubusercontent.com/gladir/AXTRO/main/GALEQU.PAS
+https://raw.githubusercontent.com/gladir/AXTRO/main/GRAVIT.PAS
+https://raw.githubusercontent.com/gladir/AXTRO/main/MOON.PAS
+https://raw.githubusercontent.com/gladir/AXTRO/main/OBSERV.PAS
+https://raw.githubusercontent.com/gladir/AXTRO/main/ORIGIN.PAS
+https://raw.githubusercontent.com/gladir/AXTRO/main/PLANET.PAS
+https://raw.githubusercontent.com/gladir/AXTRO/main/SIMUPLAN.PAS
+make: fpc COSMIC.PAS
+make: fpc DISTANCE.PAS
+make: fpc GALEQU.PAS
+make: fpc GRAVIT.PAS
+make: fpc MOON.PAS
+make: fpc OBSERV.PAS
+make: fpc ORIGIN.PAS
+make: fpc PLANET.PAS
+make: fpc SIMUPLAN.PAS
+
 [baby]
 title: Bouncing Babies
 https://raw.githubusercontent.com/gladir/7iles/main/BABY.PAS
@@ -136,10 +157,35 @@ title: Clone de GW-BASIC en Pascal
 https://raw.githubusercontent.com/gladir/GWBASIC-0/main/GWBASIC.PAS
 make: fpc GWBASIC.PAS
 
+[hangman]
+title: Jeu Hangman en Pascal
+https://raw.githubusercontent.com/gladir/7iles/main/HANGMAN.PAS
+make: fpc HANGMAN.PAS
+
+[hanois]
+title: Jeu Tours d'Hanois
+https://raw.githubusercontent.com/gladir/7iles/main/HANOIS.PAS
+make: fpc HANOIS.PAS
+
+[invaders]
+title: Clone du jeu Space Invaders en Pascal
+https://raw.githubusercontent.com/gladir/7iles/main/INVADERS.PAS
+make: fpc INVADERS.PAS
+
 [l25]
-title: Jeux L25 en Pascal
+title: Jeu L25 en Pascal
 https://raw.githubusercontent.com/gladir/7iles/main/L25.PAS
 make: fpc L25.PAS
+
+[lunar]
+title: Jeu Lunar Lander en Pascal
+https://raw.githubusercontent.com/gladir/7iles/main/LUNAR.PAS
+make: fpc LUNAR.PAS
+
+[lunarlander]
+title: Jeu Lunar Lander en Pascal
+https://raw.githubusercontent.com/gladir/7iles/main/LUNAR.PAS
+make: fpc LUNAR.PAS
 
 [linuxmath]
 title: Clone de la bibliothèque math.h de Linux en Pascal
@@ -163,6 +209,7 @@ https://raw.githubusercontent.com/gladir/DELPHILIB-TP/main/MATH.PAS
 [moon]
 title: Cette commande permet d'afficher phase lunaire dans un mois.
 https://raw.githubusercontent.com/gladir/MYSTIX/main/MOON.PAS
+make: fpc MOON.PAS
 
 [newage]
 title: Cette commande permet de générer du texte aléatoirement sur le nouvelle age (Newage Ipsum)
@@ -170,7 +217,7 @@ https://raw.githubusercontent.com/gladir/MYSTIX/main/NEWAGE.PAS
 make: fpc NEWAGE.PAS
 
 [nibbles]
-title: Clone de Nibbles en Pascal
+title: Clone du jeu Nibbles en Pascal
 https://raw.githubusercontent.com/gladir/7iles/main/NIBBLES.PAS
 make: fpc NIBBLES.PAS
 
@@ -179,9 +226,44 @@ title: Clone de O'Riley's Mine en Pascal
 https://raw.githubusercontent.com/gladir/7iles/main/ORILEYS.PAS
 make: fpc ORILEYS.PAS
 
+[pac-man]
+title: Jeu Pac-Man en Pascal
+https://raw.githubusercontent.com/gladir/7iles/main/PACMAN.PAS
+make: fpc PACMAN.PAS
+
+[pacman]
+title: Jeu Pac-Man en Pascal
+https://raw.githubusercontent.com/gladir/7iles/main/PACMAN.PAS
+make: fpc PACMAN.PAS
+
+[pango]
+title: Jeu Pango en Pascal
+https://raw.githubusercontent.com/gladir/7iles/main/PANGO.PAS
+make: fpc PANGO.PAS
+
+[patience]
+title: Jeu de carte Patience en Pascal
+https://raw.githubusercontent.com/gladir/7iles/main/PATIENCE.PAS
+make: fpc PATIENCE.PAS
+
+[peg-leap]
+title: Jeu Peg Leap en Pascal
+https://raw.githubusercontent.com/gladir/7iles/main/PEGLEAP.PAS
+make: fpc PEGLEAP.PAS
+
+[pegleap]
+title: Jeu Peg Leap en Pascal
+https://raw.githubusercontent.com/gladir/7iles/main/PEGLEAP.PAS
+make: fpc PEGLEAP.PAS
+
 [posix]
 title: Clone des fonctions de la bibliothèque POSIX en Turbo Pascal
 https://raw.githubusercontent.com/gladir/POSIX-TP/main/POSIX.PAS
+
+[renju]
+title: Jeu Renju en Pascal
+https://raw.githubusercontent.com/gladir/7iles/main/RENJU.PAS
+make: fpc RENJU.PAS
 
 [sealink]
 title: Protocol SEALINK in Turbo Pascal
@@ -191,19 +273,79 @@ https://raw.githubusercontent.com/turbopascal007/SEALINK/main/SEALINK.PAS
 title: Cette commande permet d'afficher le signe astrologique.
 https://github.com/gladir/MYSTIX/main/SIGN.PAS
 
+[sodoku]
+title: Jeu Sodoku en Pascal
+https://raw.githubusercontent.com/gladir/7iles/main/SODOKU.PAS
+make: fpc SODOKU.PAS
+
+[soko-ban]
+title: Jeu Soko-Ban en Pascal
+https://raw.githubusercontent.com/gladir/7iles/main/SOKOBAN.PAS
+make: fpc SOKOBAN.PAS
+
+[sokoban]
+title: Jeu Soko-Ban en Pascal
+https://raw.githubusercontent.com/gladir/7iles/main/SOKOBAN.PAS
+make: fpc SOKOBAN.PAS
+
+[spaceinvaders]
+title: Clone du jeu Space Invaders en Pascal
+https://raw.githubusercontent.com/gladir/7iles/main/INVADERS.PAS
+make: fpc INVADERS.PAS
+
+[space-jockey]
+title: Clone du jeu Space Jockey en Pascal
+https://raw.githubusercontent.com/gladir/7iles/main/SPACEJOC.PAS
+make: fpc SPACEJOC.PAS
+
+[spacejoc]
+title: Clone du jeu Space Jockey en Pascal
+https://raw.githubusercontent.com/gladir/7iles/main/SPACEJOC.PAS
+make: fpc SPACEJOC.PAS
+
+[spacejockey]
+title: Clone du jeu Space Jockey en Pascal
+https://raw.githubusercontent.com/gladir/7iles/main/SPACEJOC.PAS
+make: fpc SPACEJOC.PAS
+
 [tetris]
 title: Clone de Tetris en Pascal
 https://raw.githubusercontent.com/gladir/7iles/main/TETRIS.PAS
 make: fpc TETRIS.PAS
+
+[tictactoe]
+title: Jeu Tic-Tac-Toe en Pascal
+https://raw.githubusercontent.com/gladir/7iles/main/TTT.PAS
+make: fpc TTT.PAS
+
+[towerhanoi]
+title: Jeu Tours d'Hanois en Pascal
+https://raw.githubusercontent.com/gladir/7iles/main/HANOIS.PAS
+make: fpc HANOIS.PAS
+
+[towerofhanoi]
+title: Jeu Tours d'Hanois en Pascal
+https://raw.githubusercontent.com/gladir/7iles/main/HANOIS.PAS
+make: fpc HANOIS.PAS
+
+[ttt]
+title: Jeu Tic-Tac-Toe en Pascal
+https://raw.githubusercontent.com/gladir/7iles/main/TTT.PAS
+make: fpc TTT.PAS
 
 [unistd]
 title: Clone de la bibliothèque unistd.h de Linux en Pascal
 https://raw.githubusercontent.com/gladir/LINUX-0/main/LIB/UNISTD.PAS
 
 [verbs]
-title: Ctte commande permet d'afficher les conjugaisons d'un verbe
+title: Cette commande permet d'afficher les conjugaisons d'un verbe
 https://raw.githubusercontent.com/gladir/lettrex/main/VERBS.PAS
 make: fpc VERBS.PAS
+
+[yathzee]
+title: Jeu Yathzee en Pascal
+https://raw.githubusercontent.com/gladir/7iles/main/YATHZEE.PAS
+make: fpc YATHZEE.PAS
 
 [zmodem]
 title: Turbo Pascal ZModem
