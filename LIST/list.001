@@ -1,19 +1,162 @@
 version: 0.2
 
+[123]
+title: Clone du tableau Lotus 1-2-3 en Pascal
+https://raw.githubusercontent.com/gladir/corail/master/123.PAS
+make: fpc 123.PAS
+
 [4decomp]
 title: decompresses 4DOS 5.0 batcomp-compressed .btm files to their original batch code 
 https://raw.githubusercontent.com/turbopascal007/4DECOMP/main/4DECOMP.PAS
 make: "C:\Program Files (x86)\DOSBox-0.74\DOSBox.exe" -c "mount C \"C:\\"" -c "C:" -c "C:\LANGAGE\TP\BIN\tpc.exe 4DECOMP.PAS" -exit
+
+[4dos]
+title: Clone de 4DOS en Pascal
+https://raw.githubusercontent.com/gladir/4DOS-0/main/4DOS.PAS
+make: fpc 4DOS.PAS
+
+[ac]
+title: AC : Cette commande permet d'afficher les statistiques de temps de connexions d'un utilisateur
+https://raw.githubusercontent.com/gladir/corail/master/AC.PAS
+make: fpc AC.PAS
+
+[access]
+title: ACCESS : Cette commande permet de vérifier si un fichier est disponible pour les actions spécifiés avec les modes de lecture (r), d'écriture (w) ou d'exécution (x).
+https://raw.githubusercontent.com/gladir/corail/master/ACCESS.PAS
+make: fpc ACCESS.PAS
+
+[adam]
+title: ADAM : Cette commande permet de lancer l'interpréteur de Adam SmartBASIC
+https://raw.githubusercontent.com/gladir/corail/master/ADAM.PAS
+make: fpc ADAM.PAS
+
+[amigados]
+title: AMIGADOS : Cette commande permet de lancer l'interpréteur de commande AmigaDOS
+https://raw.githubusercontent.com/gladir/corail/master/AMIGADOS.PAS
+make: fpc AMIGADOS.PAS
 
 [anagram]
 title: Anagram
 https://raw.githubusercontent.com/gladir/7iles/main/ANAGRAM.PAS
 make: fpc ANAGRAM.PAS
 
+[asm6502]
+title: Assembleur 6502
+https://raw.githubusercontent.com/gladir/corail/master/ASM6502.PAS
+make: fpc ASM6502.PAS
+
+[asm8080]
+title: Assembleur 8080
+https://raw.githubusercontent.com/gladir/corail/master/ASM8080.PAS
+make: fpc ASM8080.PAS
+
+[asm8086]
+title: Assembleur 8086
+https://raw.githubusercontent.com/gladir/corail/master/ASM86.PAS
+make: fpc ASM86.PAS
+
+[asm86]
+title: Assembleur 8086
+https://raw.githubusercontent.com/gladir/corail/master/ASM86.PAS
+make: fpc ASM86.PAS
+
+[asmz80]
+title: Assembleur Z80
+https://raw.githubusercontent.com/gladir/corail/master/ASMZ80.PAS
+make: fpc ASMZ80.PAS
+
+[assembler6502]
+title: Assembleur 6502
+https://raw.githubusercontent.com/gladir/corail/master/ASM6502.PAS
+make: fpc ASM6502.PAS
+
+[assembler8080]
+title: Assembleur 8080
+https://raw.githubusercontent.com/gladir/corail/master/ASM8080.PAS
+make: fpc ASM8080.PAS
+
+[assembler8086]
+title: Assembleur 8086
+https://raw.githubusercontent.com/gladir/corail/master/ASM86.PAS
+make: fpc ASM86.PAS
+
+[assemblerz80]
+title: Assembleur Z80
+https://raw.githubusercontent.com/gladir/corail/master/ASMZ80.PAS
+make: fpc ASMZ80.PAS
+
 [asteroids]
 title: Asteroids
 https://raw.githubusercontent.com/gladir/7iles/main/ASTEROID.PAS
 make: fpc ASTEROID.PAS
+
+[astro]
+title: LOGICIEL D'AIDE A L'OBSERVATION : ASTRO de Ghislain de FROMENT
+https://raw.githubusercontent.com/turbopascal007/astro/main/ASTRO.EXE
+https://raw.githubusercontent.com/turbopascal007/astro/main/ASTRO.PAS
+https://raw.githubusercontent.com/turbopascal007/astro/main/ASTRO.RTF
+https://raw.githubusercontent.com/turbopascal007/astro/main/BIBLI0.PAS
+https://raw.githubusercontent.com/turbopascal007/astro/main/BIBLIC.PAS
+https://raw.githubusercontent.com/turbopascal007/astro/main/BIBLIE.PAS
+https://raw.githubusercontent.com/turbopascal007/astro/main/BIBLIL.PAS
+https://raw.githubusercontent.com/turbopascal007/astro/main/BIBLILA.PAS
+https://raw.githubusercontent.com/turbopascal007/astro/main/BIBLILB.PAS
+https://raw.githubusercontent.com/turbopascal007/astro/main/BIBLILC.PAS
+https://raw.githubusercontent.com/turbopascal007/astro/main/BIBLIO.PAS
+https://raw.githubusercontent.com/turbopascal007/astro/main/BIBLIP.PAS
+https://raw.githubusercontent.com/turbopascal007/astro/main/BIBLIU.PAS
+https://raw.githubusercontent.com/turbopascal007/astro/main/BIBPLT.PAS
+https://raw.githubusercontent.com/turbopascal007/astro/main/BIBSAT.PAS
+https://raw.githubusercontent.com/turbopascal007/astro/main/COMET.PAS
+https://raw.githubusercontent.com/turbopascal007/astro/main/COMETBIS.PAS
+https://raw.githubusercontent.com/turbopascal007/astro/main/DPMI16BI.OVL
+https://raw.githubusercontent.com/turbopascal007/astro/main/GEOGRAPH.PAS
+https://raw.githubusercontent.com/turbopascal007/astro/main/INTER.PAS
+https://raw.githubusercontent.com/turbopascal007/astro/main/JUP.PAS
+https://raw.githubusercontent.com/turbopascal007/astro/main/LUNE0.PAS
+https://raw.githubusercontent.com/turbopascal007/astro/main/LUNE1.PAS
+https://raw.githubusercontent.com/turbopascal007/astro/main/LUNE2.PAS
+https://raw.githubusercontent.com/turbopascal007/astro/main/PHS1.PAS
+https://raw.githubusercontent.com/turbopascal007/astro/main/PHS2.PAS
+https://raw.githubusercontent.com/turbopascal007/astro/main/PHS3.PAS
+https://raw.githubusercontent.com/turbopascal007/astro/main/PHS4.PAS
+https://raw.githubusercontent.com/turbopascal007/astro/main/RTM.EXE
+https://raw.githubusercontent.com/turbopascal007/astro/main/SAT.PAS
+https://raw.githubusercontent.com/turbopascal007/astro/main/SAT1.PAS
+https://raw.githubusercontent.com/turbopascal007/astro/main/SAT2.PAS
+https://raw.githubusercontent.com/turbopascal007/astro/main/STNP.PAS
+https://raw.githubusercontent.com/turbopascal007/astro/main/TEL.PAS
+https://raw.githubusercontent.com/turbopascal007/astro/main/URA.PAS
+
+[avionix]
+title: Avionix : Liste de commandes écrit en Pascal (Turbo Pascal ou Free Pascal) pour l'aviation
+https://raw.githubusercontent.com/gladir/AVIONIX/main/CAS.PAS
+https://raw.githubusercontent.com/gladir/AVIONIX/main/DECOL.PAS
+https://raw.githubusercontent.com/gladir/AVIONIX/main/DESCENTE.PAS
+https://raw.githubusercontent.com/gladir/AVIONIX/main/FINDPLN.PAS
+https://raw.githubusercontent.com/gladir/AVIONIX/main/ISA.PAS
+https://raw.githubusercontent.com/gladir/AVIONIX/main/KM2MILES.PAS
+https://raw.githubusercontent.com/gladir/AVIONIX/main/MACH.PAS
+https://raw.githubusercontent.com/gladir/AVIONIX/main/MILES2KM.PAS
+https://raw.githubusercontent.com/gladir/AVIONIX/main/PLANE.PAS
+https://raw.githubusercontent.com/gladir/AVIONIX/main/PORTANCE.PAS
+https://raw.githubusercontent.com/gladir/AVIONIX/main/TRAJECT.PAS
+make: fpc CAS.PAS
+make: fpc DECOL.PAS
+make: fpc DESCENTE.PAS
+make: fpc FINDPLN.PAS
+make: fpc ISA.PAS
+make: fpc KM2MILES.PAS
+make: fpc MACH.PAS
+make: fpc MILES2KM.PAS
+make: fpc PLANE.PAS
+make: fpc PORTANCE.PAS
+make: fpc TRAJECT.PAS
+
+[awk]
+title: Clone de la commande AWK en Pascal
+https://raw.githubusercontent.com/gladir/corail/master/AWK.PAS
+make: fpc AWK.PAS
 
 [axtro]
 title: Axtro : Liste de commandes sur l'astronomie écrit en Pascal
@@ -40,6 +183,11 @@ make: fpc SIMUPLAN.PAS
 title: Bouncing Babies
 https://raw.githubusercontent.com/gladir/7iles/main/BABY.PAS
 make: fpc BABY.PAS
+
+[banner]
+title: Clone de la commande banner de Unix en Pascal
+https://raw.githubusercontent.com/gladir/corail/master/BANNER.PAS
+make: fpc BANNER.PAS
 
 [blox]
 title: Blox
@@ -71,6 +219,11 @@ title: Bubble Shooter
 https://raw.githubusercontent.com/gladir/7iles/main/BS.PAS
 make: fpc BS.PAS
 
+[c2pas]
+title: C to Pascal : Convertisseur de langage C en langage Pascal
+https://raw.githubusercontent.com/gladir/DEV-COOLS/main/C2PAS.PAS
+make: fpc C2PAS.PAS
+
 [cannonball]
 title: Cannonball
 https://raw.githubusercontent.com/gladir/7iles/main/CANNONBA.PAS
@@ -85,6 +238,11 @@ make: fpc CENTIPED.PAS
 title: Centipede
 https://raw.githubusercontent.com/gladir/7iles/main/CENTIPED.PAS
 make: fpc CENTIPED.PAS
+
+[cobol]
+title: Interpréteur de commande Cobol en Pascal
+https://raw.githubusercontent.com/gladir/COBOL-0/main/COBOL.PAS
+make: fpc COBOL.PAS
 
 [cocoyathzee]
 title: Clone de Coco-Yathzee en Pascal
@@ -121,10 +279,24 @@ title: Pascal routines to access DBASE files,sources included
 https://raw.githubusercontent.com/turbopascal007/DBASEPAS/main/DB.PAS
 https://raw.githubusercontent.com/turbopascal007/DBASEPAS/main/DBASEIII.PAS
 
+[draw2lgo]
+title: DRAW2LGO : Cette commande permet de convertir les chaînes de caractères DRAW du langage de programmation BASIC en instruction du langage de programmation LOGO.
+https://raw.githubusercontent.com/gladir/DEV-COOLS/main/DRAW2LGO.PAS
+make: fpc DRAW2LGO.PAS
+
+[draw2logo]
+title: DRAW2LGO : Cette commande permet de convertir les chaînes de caractères DRAW du langage de programmation BASIC en instruction du langage de programmation LOGO.
+https://raw.githubusercontent.com/gladir/DEV-COOLS/main/DRAW2LGO.PAS
+make: fpc DRAW2LGO.PAS
+
 [drmario]
 title: Clone du jeu Dr. Mario en Pascal
 https://raw.githubusercontent.com/gladir/7iles/main/DRMARIO.PAS
 make: fpc DRMARIO.PAS
+
+[e]
+title: Clone de E du PC-DOS : Cette commande permet d'éditer un fichier texte ASCII.
+https://github.com/gladir/PCDOS-0/main/E.PAS
 
 [easter]
 title: Cette commande permet d'afficher la date de la Pâque l'année spécifiée.
@@ -241,6 +413,11 @@ title: Jeu Pango en Pascal
 https://raw.githubusercontent.com/gladir/7iles/main/PANGO.PAS
 make: fpc PANGO.PAS
 
+[pas2html]
+title: Pascal à HTML
+https://github.com/gladir/DEV-COOLS/blob/main/PAS2HTML.PAS
+make: fpc PAS2HTML.PAS
+
 [patience]
 title: Jeu de carte Patience en Pascal
 https://raw.githubusercontent.com/gladir/7iles/main/PATIENCE.PAS
@@ -255,6 +432,11 @@ make: fpc PEGLEAP.PAS
 title: Jeu Peg Leap en Pascal
 https://raw.githubusercontent.com/gladir/7iles/main/PEGLEAP.PAS
 make: fpc PEGLEAP.PAS
+
+[pmeter]
+title: PMETER : Cette commande permet de faire des tests de charge
+https://raw.githubusercontent.com/gladir/DEV-COOLS/blob/main/PMETER.PAS
+make: fpc PMETER.PAS
 
 [posix]
 title: Clone des fonctions de la bibliothèque POSIX en Turbo Pascal
@@ -332,6 +514,11 @@ make: fpc HANOIS.PAS
 title: Jeu Tic-Tac-Toe en Pascal
 https://raw.githubusercontent.com/gladir/7iles/main/TTT.PAS
 make: fpc TTT.PAS
+
+[txt2inc]
+title: TXT2INC : Cette commande permet de convertir un texte en chaîne de caractères entre guillemet pour Pascal.
+https://raw.githubusercontent.com/gladir/DEV-COOLS/blob/main/TXT2INC.PAS
+make: fpc TXT2INC.PAS
 
 [unistd]
 title: Clone de la bibliothèque unistd.h de Linux en Pascal
