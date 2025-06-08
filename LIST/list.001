@@ -2,13 +2,13 @@ version: 0.1
 
 [curl]
 title: curl clone en Pascal
-https://github.com/gladir/corail/blob/master/CURL.PAS
+https://github.com/gladir/corail/raw/master/CURL.PAS
 make: fpc CURL.PAS
 
 [nortoncommander]
 title: Norton Commander clone en Pascal
-https://github.com/gladir/NORTONCOMMANDER-0/blob/main/NC.PAS
-https://github.com/gladir/NORTONCOMMANDER-0/blob/main/NCEDIT.PAS
+https://github.com/gladir/NORTONCOMMANDER-0/raw/main/NC.PAS
+https://github.com/gladir/NORTONCOMMANDER-0/raw/main/NCEDIT.PAS
 make: fpc NC.PAS
 make: fpc NCEDIT.PAS
 
