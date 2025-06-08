@@ -164,24 +164,26 @@ BEGIN
    PacketFound:=False;
    While Not EOF(PacketFile)do Begin
     ReadLn(PacketFile,CurrLine);
-    If StrToUpper(CurrLine)='['+StrToUpper(PacketName)+']'Then Begin
-     InPacket:=True;
-     PacketFound:=True;
-    End
-     Else
-    If Copy(CurrLine,1,1)='['Then InPacket:=False Else
-    If(InPacket)Then Begin
-     If StrToUpper(Copy(CurrLine,1,Length('TITLE:')))='TITLE:'Then Begin
-      WriteLn('Nom : ',Copy(CurrLine,Length('TITLE:')+2));
+    If CurrLine<>''Then Begin
+     If StrToUpper(CurrLine)='['+StrToUpper(PacketName)+']'Then Begin
+      InPacket:=True;
+      PacketFound:=True;
      End
       Else
-     If StrToUpper(Copy(CurrLine,1,Length('MAKE:')))='MAKE:'Then Begin
-      ParseCommandLine(Copy(CurrLine,Length('MAKE:')+2,255),CommandLine,CommandParam);
-      ExecuteProcess(CommandLine,CommandParam);
-     End
-      Else
-     Begin
-      DownloadFileURL(CurrLine);
+     If Copy(CurrLine,1,1)='['Then InPacket:=False Else
+     If(InPacket)Then Begin
+      If StrToUpper(Copy(CurrLine,1,Length('TITLE:')))='TITLE:'Then Begin
+       WriteLn('Nom : ',Copy(CurrLine,Length('TITLE:')+2));
+      End
+       Else
+      If StrToUpper(Copy(CurrLine,1,Length('MAKE:')))='MAKE:'Then Begin
+       ParseCommandLine(Copy(CurrLine,Length('MAKE:')+2,255),CommandLine,CommandParam);
+       ExecuteProcess(CommandLine,CommandParam);
+      End
+       Else
+      Begin
+       DownloadFileURL(CurrLine);
+      End;
      End;
     End;
    End;

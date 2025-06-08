@@ -1,9 +1,57 @@
-version: 0.1
+version: 0.2
+
+[4decomp]
+title: decompresses 4DOS 5.0 batcomp-compressed .btm files to their original batch code 
+https://github.com/turbopascal007/4DECOMP/blob/main/4DECOMP.PAS
+make: "C:\Program Files (x86)\DOSBox-0.74\DOSBox.exe" -c "mount C \"C:\\"" -c "C:" -c "C:\LANGAGE\TP\BIN\tpc.exe 4DECOMP.PAS" -exit
+
+[bubbleshooter]
+title: Bubble Shooter
+https://raw.githubusercontent.com/gladir/7iles/main/BS.PAS
+make: fpc BS.PAS
+
+[cocoyathzee]
+title: Clone de Coco-Yathzee en Pascal
+https://raw.githubusercontent.com/gladir/7iles/main/CYATHZEE.PAS
+make: fpc CYATHZEE.PAS
+
+[colorspaceinvaders]
+title: Clone de Color Space Invaders en Pascal
+https://github.com/gladir/7iles/main/CSI.PAS
+make: fpc CSI.PAS
 
 [curl]
-title: curl clone en Pascal
+title: Clone curl en Pascal
 https://raw.githubusercontent.com/gladir/corail/master/CURL.PAS
 make: fpc CURL.PAS
+
+[dbasepas]
+title: Pascal routines to access DBASE files,sources included 
+https://raw.githubusercontent.com/turbopascal007/DBASEPAS/main/DB.PAS
+https://raw.githubusercontent.com/turbopascal007/DBASEPAS/main/DBASEIII.PAS
+
+[frogger]
+title: Clone de Frogger en Pascal
+https://raw.githubusercontent.com/gladir/7iles/main/FROGGER.PAS
+make: fpc FROGGER.PAS
+
+[gwbasic]
+title: Clone de GW-BASIC en Pascal
+https://raw.githubusercontent.com/gladir/GWBASIC-0/main/GWBASIC.PAS
+make: fpc GWBASIC.PAS
+
+[l25]
+title: Jeux L25 en Pascal
+https://raw.githubusercontent.com/gladir/7iles/main/L25.PAS
+make: fpc L25.PAS
+
+[linuxmath]
+title: Clone de la bibliothèque math.h de Linux en Pascal
+https://raw.githubusercontent.com/gladir/LINUX-0/main/LIB/MATH.PAS
+
+[loderunner]
+title: Clone de LodeRunner en Pascal
+https://raw.githubusercontent.com/7iles/main/LODERUNN.PAS
 
 [nortoncommander]
 title: Norton Commander clone en Pascal
@@ -11,5 +59,41 @@ https://raw.githubusercontent.com/gladir/NORTONCOMMANDER-0/main/NC.PAS
 https://raw.githubusercontent.com/gladir/NORTONCOMMANDER-0/main/NCEDIT.PAS
 make: fpc NC.PAS
 make: fpc NCEDIT.PAS
+
+[math]
+title: Clone de la bibliothèque Math de Delphi en Pascal
+https://raw.githubusercontent.com/gladir/DELPHILIB-TP/main/MATH.PAS
+
+[nibbles]
+title: Clone de Nibbles en Pascal
+https://raw.githubusercontent.com/gladir/7iles/main/NIBBLES.PAS
+make: fpc NIBBLES.PAS
+
+[orileys]
+title: Clone de O'Riley's Mine en Pascal
+https://raw.githubusercontent.com/gladir/7iles/main/ORILEYS.PAS
+make: fpc ORILEYS.PAS
+
+[sealink]
+Protocol SEALINK in Turbo Pascal
+https://raw.githubusercontent.com/turbopascal007/SEALINK/main/SEALINK.PAS
+
+[tetris]
+title: Clone de Tetris en Pascal
+https://raw.githubusercontent.com/gladir/7iles/main/TETRIS.PAS
+make: fpc TETRIS.PAS
+
+[unistd]
+title: Clone de la bibliothèque unistd.h de Linux en Pascal
+https://raw.githubusercontent.com/gladir/LINUX-0/main/LIB/UNISTD.PAS
+
+[zmodem]
+title: Turbo Pascal ZModem
+https://raw.githubusercontent.com/turbopascal007/ZMODS/main/TPZ.PAS
+https://raw.githubusercontent.com/turbopascal007/ZMODS/main/TPZASYNC.PAS
+https://raw.githubusercontent.com/turbopascal007/ZMODS/main/TPZCRC.PAS
+https://raw.githubusercontent.com/turbopascal007/ZMODS/main/TPZFILES.PAS
+https://raw.githubusercontent.com/turbopascal007/ZMODS/main/TPZUNIX.PAS
+https://raw.githubusercontent.com/turbopascal007/ZMODS/main/TPZVIDEO.PAS
 
 [end]
