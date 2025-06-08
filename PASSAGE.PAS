@@ -14,7 +14,7 @@ Uses
 Var
  Client:TFPHTTPClient;
  InPacket,PacketFound:Boolean;
- PacketName:String;
+ PacketName,CommandLine,CommandParam:String;
  URL,CurrLine,Response:AnsiString;
  PacketFile:Text;
 
@@ -64,6 +64,54 @@ Begin
  Writeln(FileDownload,Response);
  Close(FileDownload);
 End;
+
+Function ParseCommandLine(Const CommandLine:String;Var Commande,Parametres:String):Boolean;
+Var
+ I:Integer;
+ InQuotes:Boolean;
+ CmdEndPos:Integer;
+Begin
+ Commande:='';
+ Parametres:='';
+ Result:=FALSE;
+ I:=1;
+ While(I<=Length(CommandLine))and(CommandLine[I] = ' ')do Inc(I);
+ If I>Length(CommandLine)Then Exit;
+ CmdEndPos:=I;
+ InQuotes:=False;
+ If CommandLine[I]='"'Then Begin
+  InQuotes:=True;
+  Inc(I);
+  CmdEndPos:=I;
+  While(I<=Length(CommandLine))and(CommandLine[I]<>'"')do Begin
+   Inc(I);
+  End;
+  If(I<=Length(CommandLine))and(CommandLine[I]='"')Then Begin
+   Commande:=Copy(CommandLine,CmdEndPos,I-CmdEndPos);
+   Inc(I);
+   Result:=True;
+  End
+   Else
+  Begin
+   Commande:=Copy(CommandLine,CmdEndPos,Length(CommandLine)-CmdEndPos+1);
+   Result:=False;
+   Exit;
+  End;
+ End
+  Else
+ Begin
+  While(I<=Length(CommandLine))and(CommandLine[I]<>' ')do Begin
+   Inc(I);
+  End;
+  Commande:=Copy(CommandLine,CmdEndPos,I-CmdEndPos);
+  Result:=True;
+ End;
+ If Result Then Begin
+  While(I<=Length(CommandLine))and(CommandLine[I]=' ')do Inc(I);
+  If I<=Length(CommandLine)Then
+   Parametres:=Copy(CommandLine,I,Length(CommandLine)-I+1);
+  END;
+END;
 
 BEGIN
  If(ParamStr(1)='/?')or(ParamStr(1)='--help')or(ParamStr(1)='-h')or
@@ -128,7 +176,8 @@ BEGIN
      End
       Else
      If StrToUpper(Copy(CurrLine,1,Length('MAKE:')))='MAKE:'Then Begin
-      ExecuteProcess(Copy(CurrLine,Length('MAKE:')+2,255),'');
+      ParseCommandLine(Copy(CurrLine,Length('MAKE:')+2,255),CommandLine,CommandParam);
+      ExecuteProcess(CommandLine,CommandParam);
      End
       Else
      Begin
