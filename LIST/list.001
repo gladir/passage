@@ -2,13 +2,68 @@ version: 0.2
 
 [4decomp]
 title: decompresses 4DOS 5.0 batcomp-compressed .btm files to their original batch code 
-https://github.com/turbopascal007/4DECOMP/blob/main/4DECOMP.PAS
+https://raw.githubusercontent.com/turbopascal007/4DECOMP/main/4DECOMP.PAS
 make: "C:\Program Files (x86)\DOSBox-0.74\DOSBox.exe" -c "mount C \"C:\\"" -c "C:" -c "C:\LANGAGE\TP\BIN\tpc.exe 4DECOMP.PAS" -exit
+
+[anagram]
+title: Anagram
+https://raw.githubusercontent.com/gladir/7iles/main/ANAGRAM.PAS
+make: fpc ANAGRAM.PAS
+
+[asteroids]
+title: Asteroids
+https://raw.githubusercontent.com/gladir/7iles/main/ASTEROID.PAS
+make: fpc ASTEROID.PAS
+
+[baby]
+title: Bouncing Babies
+https://raw.githubusercontent.com/gladir/7iles/main/BABY.PAS
+make: fpc BABY.PAS
+
+[blox]
+title: Blox
+https://raw.githubusercontent.com/gladir/7iles/main/BLOX.PAS
+make: fpc BLOX.PAS
+
+[bouncingbabies]
+title: Bouncing Babies
+https://raw.githubusercontent.com/gladir/7iles/main/BABY.PAS
+make: fpc BABY.PAS
+
+[bowling]
+title: Bowling
+https://raw.githubusercontent.com/gladir/7iles/main/BOWLING.PAS
+make: fpc BOWLING.PAS
+
+[breakout]
+title: BreakOut
+https://raw.githubusercontent.com/gladir/7iles/main/BREAKOUT.PAS
+make: fpc BREAKOUT.PAS
+
+[bs]
+title: Bubble Shooter
+https://raw.githubusercontent.com/gladir/7iles/main/BS.PAS
+make: fpc BS.PAS
 
 [bubbleshooter]
 title: Bubble Shooter
 https://raw.githubusercontent.com/gladir/7iles/main/BS.PAS
 make: fpc BS.PAS
+
+[cannonball]
+title: Cannonball
+https://raw.githubusercontent.com/gladir/7iles/main/CANNONBA.PAS
+make: fpc CANNONBA.PAS
+
+[centiped]
+title: Centipede
+https://raw.githubusercontent.com/gladir/7iles/main/CENTIPED.PAS
+make: fpc CENTIPED.PAS
+
+[centipede]
+title: Centipede
+https://raw.githubusercontent.com/gladir/7iles/main/CENTIPED.PAS
+make: fpc CENTIPED.PAS
 
 [cocoyathzee]
 title: Clone de Coco-Yathzee en Pascal
@@ -20,6 +75,21 @@ title: Clone de Color Space Invaders en Pascal
 https://github.com/gladir/7iles/main/CSI.PAS
 make: fpc CSI.PAS
 
+[command]
+title: Clone de COMMAND.COM en Pascal
+https://raw.githubusercontent.com/gladir/COMMAND-0/main/COMMAND.PAS
+make: fpc COMMAND.PAS
+
+[command-0]
+title: Clone de COMMAND.COM en Pascal
+https://raw.githubusercontent.com/gladir/COMMAND-0/main/COMMAND.PAS
+make: fpc COMMAND.PAS
+
+[command.com]
+title: Clone de COMMAND.COM en Pascal
+https://raw.githubusercontent.com/gladir/COMMAND-0/main/COMMAND.PAS
+make: fpc COMMAND.PAS
+
 [curl]
 title: Clone curl en Pascal
 https://raw.githubusercontent.com/gladir/corail/master/CURL.PAS
@@ -30,10 +100,36 @@ title: Pascal routines to access DBASE files,sources included
 https://raw.githubusercontent.com/turbopascal007/DBASEPAS/main/DB.PAS
 https://raw.githubusercontent.com/turbopascal007/DBASEPAS/main/DBASEIII.PAS
 
+[drmario]
+title: Clone du jeu Dr. Mario en Pascal
+https://raw.githubusercontent.com/gladir/7iles/main/DRMARIO.PAS
+make: fpc DRMARIO.PAS
+
+[easter]
+title: Cette commande permet d'afficher la date de la Pâque l'année spécifiée.
+https://raw.githubusercontent.com/gladir/MYSTIX/main/EASTER.PAS
+make: fpc EASTER.PAS
+
+[elmah]
+title: Clone de ELMAH en Pascal (Turbo Pascal ou Free Pascal) 
+https://raw.githubusercontent.com/gladir/ELMAH-0/main/ELMAH.PAS
+https://raw.githubusercontent.com/gladir/ELMAH-0/main/ELMAHSQL.PAS
+https://raw.githubusercontent.com/gladir/ELMAH-0/main/ELMAHXML.PAS
+
 [frogger]
-title: Clone de Frogger en Pascal
+title: Clone du jeu Frogger en Pascal
 https://raw.githubusercontent.com/gladir/7iles/main/FROGGER.PAS
 make: fpc FROGGER.PAS
+
+[geolib]
+title: Bibliothèque en Turbo Pascal pour la géographie. 
+https://raw.githubusercontent.com/gladir/GEOLIB-TP/main/GEOFUNC.PAS
+https://raw.githubusercontent.com/gladir/GEOLIB-TP/main/POPUL.PAS
+
+[gomoko]
+title: Jeu GOMOKO
+https://raw.githubusercontent.com/gladir/7iles/main/GOMOKU.PAS
+make: fpc GOMOKU.PAS
 
 [gwbasic]
 title: Clone de GW-BASIC en Pascal
@@ -64,6 +160,15 @@ make: fpc NCEDIT.PAS
 title: Clone de la bibliothèque Math de Delphi en Pascal
 https://raw.githubusercontent.com/gladir/DELPHILIB-TP/main/MATH.PAS
 
+[moon]
+title: Cette commande permet d'afficher phase lunaire dans un mois.
+https://raw.githubusercontent.com/gladir/MYSTIX/main/MOON.PAS
+
+[newage]
+title: Cette commande permet de générer du texte aléatoirement sur le nouvelle age (Newage Ipsum)
+https://raw.githubusercontent.com/gladir/MYSTIX/main/NEWAGE.PAS
+make: fpc NEWAGE.PAS
+
 [nibbles]
 title: Clone de Nibbles en Pascal
 https://raw.githubusercontent.com/gladir/7iles/main/NIBBLES.PAS
@@ -74,9 +179,17 @@ title: Clone de O'Riley's Mine en Pascal
 https://raw.githubusercontent.com/gladir/7iles/main/ORILEYS.PAS
 make: fpc ORILEYS.PAS
 
+[posix]
+title: Clone des fonctions de la bibliothèque POSIX en Turbo Pascal
+https://raw.githubusercontent.com/gladir/POSIX-TP/main/POSIX.PAS
+
 [sealink]
-Protocol SEALINK in Turbo Pascal
+title: Protocol SEALINK in Turbo Pascal
 https://raw.githubusercontent.com/turbopascal007/SEALINK/main/SEALINK.PAS
+
+[sign]
+title: Cette commande permet d'afficher le signe astrologique.
+https://github.com/gladir/MYSTIX/main/SIGN.PAS
 
 [tetris]
 title: Clone de Tetris en Pascal
@@ -86,6 +199,11 @@ make: fpc TETRIS.PAS
 [unistd]
 title: Clone de la bibliothèque unistd.h de Linux en Pascal
 https://raw.githubusercontent.com/gladir/LINUX-0/main/LIB/UNISTD.PAS
+
+[verbs]
+title: Ctte commande permet d'afficher les conjugaisons d'un verbe
+https://raw.githubusercontent.com/gladir/lettrex/main/VERBS.PAS
+make: fpc VERBS.PAS
 
 [zmodem]
 title: Turbo Pascal ZModem

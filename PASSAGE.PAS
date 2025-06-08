@@ -52,7 +52,7 @@ Begin
   Response:=Client.SimpleGet(URL);
  Except
    On E: Exception do
-    Writeln('Error: ', E.Message);
+    Writeln('Erreur: ', E.Message);
   End;
  Client.Free;
  {$I-}Assign(FileDownload,FileName);
@@ -127,7 +127,7 @@ BEGIN
  End
   Else
  If ParamStr(1)='--version'Then Begin
-  WriteLn('PASSAGE 0.1 - PasSage de passage ou corail');
+  WriteLn('PASSAGE 0.2 - PasSage de passage ou corail');
   WriteLn('Licence MIT');
   WriteLn;
   WriteLn('êcrit par Sylvain Maltais');
@@ -182,6 +182,7 @@ BEGIN
       End
        Else
       Begin
+       WriteLn('TÇlÇchargement de ',CurrLine);
        DownloadFileURL(CurrLine);
       End;
      End;
