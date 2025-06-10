@@ -8,7 +8,7 @@ make: fpc 123.PAS
 [4decomp]
 title: decompresses 4DOS 5.0 batcomp-compressed .btm files to their original batch code 
 https://raw.githubusercontent.com/turbopascal007/4DECOMP/main/4DECOMP.PAS
-make: "C:\Program Files (x86)\DOSBox-0.74\DOSBox.exe" -c "mount C \"C:\\"" -c "C:" -c "C:\LANGAGE\TP\BIN\tpc.exe 4DECOMP.PAS" -exit
+make: "C:\Program Files (x86)\DOSBox-0.74\DOSBox.exe" -c "mount C \"C:\\"" -c "C:" -c "C:\LANGAGE\TP\BIN\tpc.exe %cd%\4DECOMP.PAS" -exit
 
 [4dos]
 title: Clone de 4DOS en Pascal
@@ -519,6 +519,7 @@ https://raw.githubusercontent.com/gladir/SI/main/SYSTEM.SI
 https://raw.githubusercontent.com/gladir/SI/main/TABPARM.SI
 https://raw.githubusercontent.com/gladir/SI/main/TESTMODE.SI
 https://raw.githubusercontent.com/gladir/SI/main/UMC.SI
+make: "C:\Program Files (x86)\DOSBox-0.74\DOSBox.exe" -c "mount C \"C:\\"" -c "C:" -c "C:\LANGAGE\TP\BIN\tpc.exe %cd%\FICHIER.PAS" -exit
 
 [sign]
 title: Cette commande permet d'afficher le signe astrologique.
