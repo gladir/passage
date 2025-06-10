@@ -279,6 +279,16 @@ title: Pascal routines to access DBASE files,sources included
 https://raw.githubusercontent.com/turbopascal007/DBASEPAS/main/DB.PAS
 https://raw.githubusercontent.com/turbopascal007/DBASEPAS/main/DBASEIII.PAS
 
+[delphilib-tp]
+title: Bibliothèque de compatibilité avec Delphi écrit en Turbo Pascal 
+https://raw.githubusercontent.com/gladir/DELPHILIB-TP/main/DATEUTIL.PAS
+https://raw.githubusercontent.com/gladir/DELPHILIB-TP/main/FILECTRL.PAS
+https://raw.githubusercontent.com/gladir/DELPHILIB-TP/main/MATH.PAS
+https://raw.githubusercontent.com/gladir/DELPHILIB-TP/main/STRUTILS.PAS
+https://raw.githubusercontent.com/gladir/DELPHILIB-TP/main/SYSUTILS.PAS
+https://raw.githubusercontent.com/gladir/DELPHILIB-TP/main/TYPES.PAS
+https://raw.githubusercontent.com/gladir/DELPHILIB-TP/main/VARIANTS.PAS
+
 [draw2lgo]
 title: DRAW2LGO : Cette commande permet de convertir les chaînes de caractères DRAW du langage de programmation BASIC en instruction du langage de programmation LOGO.
 https://raw.githubusercontent.com/gladir/DEV-COOLS/main/DRAW2LGO.PAS
@@ -339,6 +349,14 @@ title: Jeu Tours d'Hanois
 https://raw.githubusercontent.com/gladir/7iles/main/HANOIS.PAS
 make: fpc HANOIS.PAS
 
+[historiclib-tp]
+title: Bibliothèque en Turbo Pascal pour l'histoire.
+https://raw.githubusercontent.com/gladir/HISTORICLIB-TP/main/CESAR.PAS
+https://raw.githubusercontent.com/gladir/HISTORICLIB-TP/main/OLDFR.PAS
+https://raw.githubusercontent.com/gladir/HISTORICLIB-TP/main/ORIGIN.PAS
+https://raw.githubusercontent.com/gladir/HISTORICLIB-TP/main/POPUL.PAS
+https://raw.githubusercontent.com/gladir/HISTORICLIB-TP/main/ROMAN.PAS
+
 [invaders]
 title: Clone du jeu Space Invaders en Pascal
 https://raw.githubusercontent.com/gladir/7iles/main/INVADERS.PAS
@@ -377,6 +395,13 @@ make: fpc NCEDIT.PAS
 [math]
 title: Clone de la bibliothèque Math de Delphi en Pascal
 https://raw.githubusercontent.com/gladir/DELPHILIB-TP/main/MATH.PAS
+
+[meteolib-tp]
+title: Bibliothèque en Turbo Pascal pour la météorologie
+https://raw.githubusercontent.com/METEOLIB-TP/main/CONVERS.PAS
+https://raw.githubusercontent.com/METEOLIB-TP/main/METEOFNC.PAS
+https://raw.githubusercontent.com/METEOLIB-TP/main/SEASON.PAS
+https://raw.githubusercontent.com/METEOLIB-TP/main/TEMP.PAS
 
 [moon]
 title: Cette commande permet d'afficher phase lunaire dans un mois.
@@ -451,6 +476,50 @@ make: fpc RENJU.PAS
 title: Protocol SEALINK in Turbo Pascal
 https://raw.githubusercontent.com/turbopascal007/SEALINK/main/SEALINK.PAS
 
+[si]
+title: Système Information (application DOS) écrit en Turbo Pascal en 1992 
+https://raw.githubusercontent.com/gladir/SI/main/AFFKEY.SI
+https://raw.githubusercontent.com/gladir/SI/main/AFFMEM.SI
+https://raw.githubusercontent.com/gladir/SI/main/BAR.SI
+https://raw.githubusercontent.com/gladir/SI/main/BIOSINFO.SI
+https://raw.githubusercontent.com/gladir/SI/main/CHAINE.SI
+https://raw.githubusercontent.com/gladir/SI/main/CLAVIER.DRV
+https://raw.githubusercontent.com/gladir/SI/main/CLAVIER.SI
+https://raw.githubusercontent.com/gladir/SI/main/CLOCK.SI
+https://raw.githubusercontent.com/gladir/SI/main/DOSSHELL.SI
+https://raw.githubusercontent.com/gladir/SI/main/ECRANM.PAS
+https://raw.githubusercontent.com/gladir/SI/main/EQUIPE.PAS
+https://raw.githubusercontent.com/gladir/SI/main/EQUIPE.SI
+https://raw.githubusercontent.com/gladir/SI/main/EXTROM.SI
+https://raw.githubusercontent.com/gladir/SI/main/FENETRE.SI
+https://raw.githubusercontent.com/gladir/SI/main/FICHIER.PAS
+https://raw.githubusercontent.com/gladir/SI/main/FLASH.SI
+https://raw.githubusercontent.com/gladir/SI/main/GRAPHIX.PAS
+https://raw.githubusercontent.com/gladir/SI/main/INFOVGA.SI
+https://raw.githubusercontent.com/gladir/SI/main/INFOVID.SI
+https://raw.githubusercontent.com/gladir/SI/main/INITDTA.SI
+https://raw.githubusercontent.com/gladir/SI/main/INITECR.SI
+https://raw.githubusercontent.com/gladir/SI/main/INTRO.SI
+https://raw.githubusercontent.com/gladir/SI/main/LICENSE
+https://raw.githubusercontent.com/gladir/SI/main/MAPBIOS.SI
+https://raw.githubusercontent.com/gladir/SI/main/MEM.PAS
+https://raw.githubusercontent.com/gladir/SI/main/MENU.SI
+https://raw.githubusercontent.com/gladir/SI/main/PAL_E1.PAS
+https://raw.githubusercontent.com/gladir/SI/main/PAL_E2.PAS
+https://raw.githubusercontent.com/gladir/SI/main/PERFPROC.SI
+https://raw.githubusercontent.com/gladir/SI/main/PHYSIQUE.SI
+https://raw.githubusercontent.com/gladir/SI/main/PROCESS.SI
+https://raw.githubusercontent.com/gladir/SI/main/QUESTION.PAS
+https://raw.githubusercontent.com/gladir/SI/main/QUITTE.SI
+https://raw.githubusercontent.com/gladir/SI/main/RESIDENT.SI
+https://raw.githubusercontent.com/gladir/SI/main/SOURIS.SI
+https://raw.githubusercontent.com/gladir/SI/main/SPEEDVID.SI
+https://raw.githubusercontent.com/gladir/SI/main/SYSINFO.PAS
+https://raw.githubusercontent.com/gladir/SI/main/SYSTEM.SI
+https://raw.githubusercontent.com/gladir/SI/main/TABPARM.SI
+https://raw.githubusercontent.com/gladir/SI/main/TESTMODE.SI
+https://raw.githubusercontent.com/gladir/SI/main/UMC.SI
+
 [sign]
 title: Cette commande permet d'afficher le signe astrologique.
 https://github.com/gladir/MYSTIX/main/SIGN.PAS
@@ -489,6 +558,50 @@ make: fpc SPACEJOC.PAS
 title: Clone du jeu Space Jockey en Pascal
 https://raw.githubusercontent.com/gladir/7iles/main/SPACEJOC.PAS
 make: fpc SPACEJOC.PAS
+
+[sysinfo]
+title: Système Information (application DOS) écrit en Turbo Pascal en 1992 
+https://raw.githubusercontent.com/gladir/SI/main/AFFKEY.SI
+https://raw.githubusercontent.com/gladir/SI/main/AFFMEM.SI
+https://raw.githubusercontent.com/gladir/SI/main/BAR.SI
+https://raw.githubusercontent.com/gladir/SI/main/BIOSINFO.SI
+https://raw.githubusercontent.com/gladir/SI/main/CHAINE.SI
+https://raw.githubusercontent.com/gladir/SI/main/CLAVIER.DRV
+https://raw.githubusercontent.com/gladir/SI/main/CLAVIER.SI
+https://raw.githubusercontent.com/gladir/SI/main/CLOCK.SI
+https://raw.githubusercontent.com/gladir/SI/main/DOSSHELL.SI
+https://raw.githubusercontent.com/gladir/SI/main/ECRANM.PAS
+https://raw.githubusercontent.com/gladir/SI/main/EQUIPE.PAS
+https://raw.githubusercontent.com/gladir/SI/main/EQUIPE.SI
+https://raw.githubusercontent.com/gladir/SI/main/EXTROM.SI
+https://raw.githubusercontent.com/gladir/SI/main/FENETRE.SI
+https://raw.githubusercontent.com/gladir/SI/main/FICHIER.PAS
+https://raw.githubusercontent.com/gladir/SI/main/FLASH.SI
+https://raw.githubusercontent.com/gladir/SI/main/GRAPHIX.PAS
+https://raw.githubusercontent.com/gladir/SI/main/INFOVGA.SI
+https://raw.githubusercontent.com/gladir/SI/main/INFOVID.SI
+https://raw.githubusercontent.com/gladir/SI/main/INITDTA.SI
+https://raw.githubusercontent.com/gladir/SI/main/INITECR.SI
+https://raw.githubusercontent.com/gladir/SI/main/INTRO.SI
+https://raw.githubusercontent.com/gladir/SI/main/LICENSE
+https://raw.githubusercontent.com/gladir/SI/main/MAPBIOS.SI
+https://raw.githubusercontent.com/gladir/SI/main/MEM.PAS
+https://raw.githubusercontent.com/gladir/SI/main/MENU.SI
+https://raw.githubusercontent.com/gladir/SI/main/PAL_E1.PAS
+https://raw.githubusercontent.com/gladir/SI/main/PAL_E2.PAS
+https://raw.githubusercontent.com/gladir/SI/main/PERFPROC.SI
+https://raw.githubusercontent.com/gladir/SI/main/PHYSIQUE.SI
+https://raw.githubusercontent.com/gladir/SI/main/PROCESS.SI
+https://raw.githubusercontent.com/gladir/SI/main/QUESTION.PAS
+https://raw.githubusercontent.com/gladir/SI/main/QUITTE.SI
+https://raw.githubusercontent.com/gladir/SI/main/RESIDENT.SI
+https://raw.githubusercontent.com/gladir/SI/main/SOURIS.SI
+https://raw.githubusercontent.com/gladir/SI/main/SPEEDVID.SI
+https://raw.githubusercontent.com/gladir/SI/main/SYSINFO.PAS
+https://raw.githubusercontent.com/gladir/SI/main/SYSTEM.SI
+https://raw.githubusercontent.com/gladir/SI/main/TABPARM.SI
+https://raw.githubusercontent.com/gladir/SI/main/TESTMODE.SI
+https://raw.githubusercontent.com/gladir/SI/main/UMC.SI
 
 [tetris]
 title: Clone de Tetris en Pascal
