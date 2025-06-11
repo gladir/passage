@@ -197,7 +197,7 @@ BEGIN
       End
        Else
       If StrToUpper(Copy(CurrLine,1,Length('MSG:')))='MSG:'Then Begin
-       WriteLn('Nom : ',Copy(CurrLine,Length('MSG:')+2));
+       WriteLn(Copy(CurrLine,Length('MSG:')+2));
       End
        Else
       If StrToUpper(Copy(CurrLine,1,Length('MAKE:')))='MAKE:'Then Begin
