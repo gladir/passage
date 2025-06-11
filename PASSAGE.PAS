@@ -196,9 +196,15 @@ BEGIN
        WriteLn('Nom : ',Copy(CurrLine,Length('TITLE:')+2));
       End
        Else
+      If StrToUpper(Copy(CurrLine,1,Length('MSG:')))='MSG:'Then Begin
+       WriteLn('Nom : ',Copy(CurrLine,Length('MSG:')+2));
+      End
+       Else
       If StrToUpper(Copy(CurrLine,1,Length('MAKE:')))='MAKE:'Then Begin
        ParseCommandLine(Copy(CurrLine,Length('MAKE:')+2,255),CommandLine,CommandParam);
        CommandParam:=StrReplace(CommandParam,'%cd%',GetCurrentDir);
+       WriteLn('Fabrication du projet avec la commande :');
+       WriteLn(CommandLine,' ',CommandParam);
        ExecuteProcess(CommandLine,CommandParam);
       End
        Else

@@ -519,7 +519,9 @@ https://raw.githubusercontent.com/gladir/SI/main/SYSTEM.SI
 https://raw.githubusercontent.com/gladir/SI/main/TABPARM.SI
 https://raw.githubusercontent.com/gladir/SI/main/TESTMODE.SI
 https://raw.githubusercontent.com/gladir/SI/main/UMC.SI
+https://raw.githubusercontent.com/gladir/SI/main/SI.BAT
 make: "C:\Program Files (x86)\DOSBox-0.74\DOSBox.exe" -c "mount C \"C:\\"" -c "C:" -c "cd %cd%" -c "C:\LANGAGE\TP\BIN\tpc.exe %cd%\SYSINFO.PAS /b" -exit C:\LANGAGE\TP\BIN\tpc.exe
+msg: Tapez SI.BAT pour lancer l'application avec DOSBox
 
 [sign]
 title: Cette commande permet d'afficher le signe astrologique.
@@ -603,7 +605,9 @@ https://raw.githubusercontent.com/gladir/SI/main/SYSTEM.SI
 https://raw.githubusercontent.com/gladir/SI/main/TABPARM.SI
 https://raw.githubusercontent.com/gladir/SI/main/TESTMODE.SI
 https://raw.githubusercontent.com/gladir/SI/main/UMC.SI
+https://raw.githubusercontent.com/gladir/SI/main/SI.BAT
 make: "C:\Program Files (x86)\DOSBox-0.74\DOSBox.exe" -c "mount C \"C:\\"" -c "C:" -c "cd %cd%" -c "C:\LANGAGE\TP\BIN\tpc.exe %cd%\SYSINFO.PAS /b" -exit C:\LANGAGE\TP\BIN\tpc.exe
+msg: Tapez SI.BAT pour lancer l'application avec DOSBox
 
 [tetris]
 title: Clone de Tetris en Pascal
