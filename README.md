@@ -66,5 +66,6 @@ Téléchargement de https://raw.githubusercontent.com/gladir/SI/main/TESTMODE.SI
 Téléchargement de https://raw.githubusercontent.com/gladir/SI/main/UMC.SI
 Fabrication du projet avec la commande :
 C:\Program Files (x86)\DOSBox-0.74\DOSBox.exe -c "mount C \"C:\\"" -c "C:" -c "cd C:\SOURCE\PASSAGE" -c "C:\LANGAGE\TP\BIN\tpc.exe C:\SOURCE\PASSAGE\SYSINFO.PAS /b" -exit C:\LANGAGE\TP\BIN\tpc.exe
+Tapez SI.BAT pour lancer l'application avec DOSBox
 </pre>
 
