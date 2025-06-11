@@ -28,6 +28,18 @@ Begin
  StrToUpper:=S;
 End;
 
+Function StrReplace(Source,Old,New:String):String;
+Var
+ P:LongInt;
+Begin
+ While Pos(Old,Source)<>0 do Begin
+  P:=Pos(Old,Source);
+  Delete(Source,P,Length(Old));
+  Insert(New,Source,P);
+ End;
+ StrReplace:=Source;
+End;
+
 Function SplitFileName(s:String):String;
 Var
  D:DirStr;
@@ -36,6 +48,14 @@ Var
 Begin
  FSplit(S,D,N,E);
  Splitfilename:=N+E;
+End;
+
+Function GetCurrentDir:String;
+Var
+ S:String;
+Begin
+ GetDir(0,S);
+ GetCurrentDir:=S;
 End;
 
 Procedure DownloadFileURL(URL:String);
@@ -178,6 +198,7 @@ BEGIN
        Else
       If StrToUpper(Copy(CurrLine,1,Length('MAKE:')))='MAKE:'Then Begin
        ParseCommandLine(Copy(CurrLine,Length('MAKE:')+2,255),CommandLine,CommandParam);
+       CommandParam:=StrReplace(CommandParam,'%cd%',GetCurrentDir);
        ExecuteProcess(CommandLine,CommandParam);
       End
        Else
