@@ -2,9 +2,10 @@
 Ligne de commande pour le gestionnaire de paquet Pascal (PasSage)
 
 <h3>Remarques</h3>
- - Si vous installez des programmes destiné au Turbo Pascal pour DOS, vous devez avoir DOSBox 0.74 d'installer et un compilateur Turbo Pascal dans le dossier C:\LANGAGE\TP\BIN\tpc.exe.
- - Si vous installer des programmes pour Free Pascal, vous devez avoir installer fpc et qu'il soit accessible dans PATH.
-
+<ul>
+ <li>Si vous installez des programmes destiné au Turbo Pascal pour DOS, vous devez avoir DOSBox 0.74 d'installer et un compilateur Turbo Pascal dans le dossier C:\LANGAGE\TP\BIN\tpc.exe.</li>
+ <li>Si vous installer des programmes pour Free Pascal, vous devez avoir installer fpc et qu'il soit accessible dans PATH.</li>
+</ul>
 <h3>Exemples</h3>
 
 Si vous souhaitez installer Norton Commander d'un paquet Pascal à partir de PasSage, vous tapez :
